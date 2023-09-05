@@ -148,7 +148,7 @@ public:
             for (auto it : v_of_variables) {
                 std::cout << it.first << std::endl;
             }
-            return -1;
+            return 0;
     }
     
     void sort() {
