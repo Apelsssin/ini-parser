@@ -133,9 +133,11 @@
   <ItemGroup>
     <ClCompile Include="Exceptions.cpp" />
     <ClCompile Include="ini-parser.cpp" />
+    <ClCompile Include="ini_parser_class.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="ini_parser_class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
